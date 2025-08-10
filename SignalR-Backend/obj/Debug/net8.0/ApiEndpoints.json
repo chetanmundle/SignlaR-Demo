@@ -1,0 +1,108 @@
+[
+  {
+    "ContainingType": "SignalR_Backend.Controllers.ConversationController",
+    "Method": "GetMyConversation",
+    "RelativePath": "api/Conversation/{userId}/get-My-conversation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Backend.Controllers.ConversationController",
+    "Method": "CreateConversation",
+    "RelativePath": "api/Conversation/create-conversation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Common.Dtos.ConversationDtos.CreateConversationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Backend.Controllers.MessageController",
+    "Method": "GetMessagesByConversationId",
+    "RelativePath": "api/message/conversationId/{conversationId}/getMessages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "conversationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Backend.Controllers.UserController",
+    "Method": "GetLoggedUser",
+    "RelativePath": "api/user/{userId}/GetUserById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Backend.Controllers.UserController",
+    "Method": "CreateUser",
+    "RelativePath": "api/user/createUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createUserDto",
+        "Type": "Common.Dtos.ResponseDtos.CreateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Backend.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/user/getAllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR_Backend.Controllers.UserController",
+    "Method": "LoginUser",
+    "RelativePath": "api/user/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginUserDto",
+        "Type": "Common.Dtos.ResponseDtos.LoginUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
