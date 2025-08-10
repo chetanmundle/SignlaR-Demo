@@ -1,0 +1,33 @@
+<div class="list-group list-group-flush h-100 overflow-auto">
+  <button class="btn btn-primary" type="button" (click)="openModal()">Create New Conversation</button>
+
+  <div class="mt-2">
+    <input type="text" class="form-control" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
+  </div>
+  @for (con of myConversations; track $index) {
+  <div class="list-group-item list-group-item-action d-flex align-items-center gap-3"
+    (click)="sendCurrentConversationData(con)">
+    <img src="images/human.svg" class="rounded-circle" alt="User" />
+    <div>
+      <h6 class="mb-0">{{ con.conversationName }}</h6>
+      <!-- <small class="text-muted">{{ con.lastMessage }}</small> -->
+    </div>
+  </div>
+  }
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="createConversationModal" tabindex="-1" aria-labelledby="createConversationModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content" style="height: 500px; width: 600px;">
+      <div class="modal-header">
+        <h5 class="modal-title" id="createConversationModalLabel">Create Conversation</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <app-create-conversation *ngIf="showCreateConversation"></app-create-conversation>
+      </div>
+    </div>
+  </div>
+</div>

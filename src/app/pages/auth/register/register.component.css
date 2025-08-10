@@ -1,0 +1,13 @@
+.card {
+  background: #fff;
+  border: none;
+  border-radius: 1.5rem;
+}
+
+input.ng-invalid.ng-touched {
+  border-color: #dc3545;
+}
+
+input.ng-valid.ng-touched {
+  border-color: #198754;
+}

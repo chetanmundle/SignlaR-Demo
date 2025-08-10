@@ -1,0 +1,11 @@
+.chat-container {
+  height: 100vh;
+  overflow: hidden;
+}
+.side-panel {
+  width: 30%;
+  border-right: 1px solid #ccc;
+}
+.message-panel {
+  width: 70%;
+}

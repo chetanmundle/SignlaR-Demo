@@ -1,0 +1,6 @@
+<div class="chat-container d-flex">
+  <app-side-conversations class="side-panel" (currentConversationEmmiter)="currentConversationEmmiter($event)"></app-side-conversations>
+  <app-conversation-message class="message-panel" [currentConversation]="currentConversation"></app-conversation-message>
+
+
+</div>

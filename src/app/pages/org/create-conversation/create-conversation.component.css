@@ -1,0 +1,10 @@
+ul.list-group {
+  max-height: 350px;
+  overflow-y: auto;
+  z-index: 1050;
+}
+
+/* .create-conversation-parent{
+    margin: 0 20%;
+    margin-top: 3%;
+} */
