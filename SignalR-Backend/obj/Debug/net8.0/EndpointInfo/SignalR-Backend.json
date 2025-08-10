@@ -5,6 +5,37 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Ask": {
+      "post": {
+        "tags": [
+          "Ask"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AskRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AskRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AskRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Conversation/create-conversation": {
       "post": {
         "tags": [
@@ -182,6 +213,16 @@
   },
   "components": {
     "schemas": {
+      "AskRequest": {
+        "type": "object",
+        "properties": {
+          "question": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "CreateConversationRequest": {
         "type": "object",
         "properties": {

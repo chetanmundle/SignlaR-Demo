@@ -1,6 +1,8 @@
 ﻿
 using App.Core;
+using App.Core.Interface.IServices;
 using Infrastructure;
+using Infrastructure.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -22,6 +24,7 @@ namespace SignalR_Backend
             builder.Services.AddApplication();
 
             // Add services to the container.
+            builder.Services.AddHttpClient<IGeminiService, GeminiService>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

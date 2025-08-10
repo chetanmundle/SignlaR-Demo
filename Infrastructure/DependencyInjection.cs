@@ -25,6 +25,8 @@ namespace Infrastructure
 
             // Services
             services.AddScoped<IJwtService, JwtService>();
+
+
             services.AddScoped<IConversationService, ConversationService>();
             services.AddScoped<IMessageService, MessageService>();
 

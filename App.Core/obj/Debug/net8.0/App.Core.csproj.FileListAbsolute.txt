@@ -15,3 +15,4 @@ D:\Visual Studio\Fontend_Backend\SignalR-Demo\SignalR-Backend\SignalR-Backend-sl
 D:\Visual Studio\Fontend_Backend\SignalR-Demo\SignalR-Backend\SignalR-Backend-sln\App.Core\obj\Debug\net8.0\refint\App.Core.dll
 D:\Visual Studio\Fontend_Backend\SignalR-Demo\SignalR-Backend\SignalR-Backend-sln\App.Core\obj\Debug\net8.0\App.Core.pdb
 D:\Visual Studio\Fontend_Backend\SignalR-Demo\SignalR-Backend\SignalR-Backend-sln\App.Core\obj\Debug\net8.0\ref\App.Core.dll
+D:\Visual Studio\Fontend_Backend\SignalR-Demo\SignalR-Backend\SignalR-Backend-sln\App.Core\obj\Debug\net8.0\App.Core.sourcelink.json

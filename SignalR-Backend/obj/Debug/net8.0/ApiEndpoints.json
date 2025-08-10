@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "SignalR_Backend.Controllers.AskController",
+    "Method": "Post",
+    "RelativePath": "api/Ask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "SignalR_Backend.Controllers.AskController\u002BAskRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SignalR_Backend.Controllers.ConversationController",
     "Method": "GetMyConversation",
     "RelativePath": "api/Conversation/{userId}/get-My-conversation",

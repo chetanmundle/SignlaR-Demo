@@ -184,3 +184,4 @@ D:\Visual Studio\Fontend_Backend\SignalR-Demo\SignalR-Backend\SignalR-Backend-sl
 D:\Visual Studio\Fontend_Backend\SignalR-Demo\SignalR-Backend\SignalR-Backend-sln\SignalR-Backend\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 D:\Visual Studio\Fontend_Backend\SignalR-Demo\SignalR-Backend\SignalR-Backend-sln\SignalR-Backend\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\Visual Studio\Fontend_Backend\SignalR-Demo\SignalR-Backend\SignalR-Backend-sln\SignalR-Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Visual Studio\Fontend_Backend\SignalR-Demo\SignalR-Backend\SignalR-Backend-sln\SignalR-Backend\obj\Debug\net8.0\SignalR-Backend.sourcelink.json

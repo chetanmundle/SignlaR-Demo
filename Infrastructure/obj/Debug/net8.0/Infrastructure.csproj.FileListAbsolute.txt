@@ -19,3 +19,4 @@ D:\Visual Studio\Fontend_Backend\SignalR-Demo\SignalR-Backend\SignalR-Backend-sl
 D:\Visual Studio\Fontend_Backend\SignalR-Demo\SignalR-Backend\SignalR-Backend-sln\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 D:\Visual Studio\Fontend_Backend\SignalR-Demo\SignalR-Backend\SignalR-Backend-sln\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
 D:\Visual Studio\Fontend_Backend\SignalR-Demo\SignalR-Backend\SignalR-Backend-sln\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+D:\Visual Studio\Fontend_Backend\SignalR-Demo\SignalR-Backend\SignalR-Backend-sln\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json

@@ -62,7 +62,8 @@ namespace SignalR_Backend.HubConnection
                 UserId = userId
             };
 
-            await _messageService.SaveMessageAsync(req);            
+            await _messageService.SaveMessageAsync(req);
+            
         }
 
         private static string GetConversationGroupName(int conversationId)
