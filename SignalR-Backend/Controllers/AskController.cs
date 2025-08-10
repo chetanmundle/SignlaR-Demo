@@ -1,4 +1,5 @@
 ﻿using App.Core.Interface.IServices;
+using Common.Dtos.GeminiDtos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,7 +16,7 @@ namespace SignalR_Backend.Controllers
             _gemini = gemini;
         }
 
-        public class AskRequest { public string Question { get; set; } = string.Empty; }
+        
 
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] AskRequest req)

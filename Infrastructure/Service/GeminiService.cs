@@ -1,11 +1,7 @@
 ﻿using App.Core.Interface.IServices;
 using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace Infrastructure.Service
 {
@@ -31,15 +27,22 @@ namespace Infrastructure.Service
             {
                 contents = new[]
                 {
-                new
-                {
-                    parts = new[]
+                    new
                     {
-                        new { text = prompt }
+                        parts = new[]
+                        {
+                            new { text = prompt }
+                        }
                     }
-                }
-            }
+                },
+                //generationConfig = new
+                //{
+                //    temperature = 0.3,
+                //    maxOutputTokens = 100
+                //}
             };
+
+
 
             using var req = new HttpRequestMessage(HttpMethod.Post, url);
             req.Headers.Add("x-goog-api-key", _apiKey);

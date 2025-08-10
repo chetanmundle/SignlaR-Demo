@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "req",
-        "Type": "SignalR_Backend.Controllers.AskController\u002BAskRequest",
+        "Type": "Common.Dtos.GeminiDtos.AskRequest",
         "IsRequired": true
       }
     ],

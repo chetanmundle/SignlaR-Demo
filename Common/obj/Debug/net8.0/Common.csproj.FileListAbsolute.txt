@@ -9,3 +9,4 @@ D:\Visual Studio\Fontend_Backend\SignalR-Demo\SignalR-Backend\SignalR-Backend-sl
 D:\Visual Studio\Fontend_Backend\SignalR-Demo\SignalR-Backend\SignalR-Backend-sln\Common\obj\Debug\net8.0\refint\Common.dll
 D:\Visual Studio\Fontend_Backend\SignalR-Demo\SignalR-Backend\SignalR-Backend-sln\Common\obj\Debug\net8.0\Common.pdb
 D:\Visual Studio\Fontend_Backend\SignalR-Demo\SignalR-Backend\SignalR-Backend-sln\Common\obj\Debug\net8.0\ref\Common.dll
+D:\Visual Studio\Fontend_Backend\SignalR-Demo\SignalR-Backend\SignalR-Backend-sln\Common\obj\Debug\net8.0\Common.sourcelink.json
